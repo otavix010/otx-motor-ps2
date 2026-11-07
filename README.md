@@ -15,6 +15,7 @@ Este repositório não contém código nem dados de nenhum jogo. Os componentes 
 
 | Versão | O que mudou |
 |---|---|
+| 0.1.7 | Memory card do God of War II funciona (carga LWL/LWR no delay slot do IOP corrigida; sceCdReadClock). Áudio pode ser silenciado nos testes (PS2X_SOM_MUDO) e registro de quedas. |
 | 0.1.2 | Pelo launcher, o desenho volta a ter thread própria (sem a espera pela placa de vídeo a cada quadro). Sprites com U/V no canto do pixel, como no PS2 (reduções e ampliações de imagem certas; acaba a faixa verde no fim da tela do God of War II). |
 | 0.1.1 | Gerador sem Python: as ferramentas viraram um único `otx_ferramentas.exe`. Variante SSE4 de verdade, sem nenhuma instrução AVX. |
 | 0.1.0 | Primeira versão: tradutor, runtime e IOP próprios. |
