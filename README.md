@@ -1,4 +1,11 @@
-# otx-motor-ps2
+<h1 align="center">otx-motor-ps2</h1>
+
+<p align="center"><i>Motor de recompilação de PS2 dos ports de PC (pacote pré-compilado)</i></p>
+
+<p align="center">
+  <a href="https://github.com/otavix010/otx-motor-ps2/releases/latest"><img alt="Versão" src="https://img.shields.io/github/v/release/otavix010/otx-motor-ps2?label=vers%C3%A3o"></a>
+  <a href="https://github.com/otavix010/otx-motor-ps2/commits/main"><img alt="Última atualização" src="https://img.shields.io/github/last-commit/otavix010/otx-motor-ps2?label=%C3%BAltima%20atualiza%C3%A7%C3%A3o"></a>
+</p>
 
 Motor de recompilação de PS2 usado pelos ports de PC do otavix010. O pacote é pré-compilado e traz:
 
