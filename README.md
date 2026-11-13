@@ -22,6 +22,7 @@ Este repositório não contém código nem dados de nenhum jogo. Os componentes 
 
 | Versão | O que mudou |
 |---|---|
+| 0.1.10 | Vídeos (libmpeg): o áudio do PSS também chega ao callback de stream do tipo 3; o God of War II registrava o áudio nesse tipo, ficava sem som no vídeo e pulava o FMV de abertura (Rodes). PS2X_MPEG_AUDIO_TIPOS escolhe os tipos (padrão 123). VU1: o XGKICK em lote dá quantas voltas forem precisas na memória do VU; um pacote maior que ela lia além do fim (0xC0000005 no memcpy). |
 | 0.1.9 | Núcleos do processador: o modo automático (PS2X_NUCLEOS=auto, padrão) agora só indica o núcleo preferido de cada thread principal, em vez de prendê-la a ele. Em processadores de 6 núcleos com outros programas abertos, o fps subiu de ~32 para ~50 no God of War (Core i5-11400F). O comportamento antigo continua em PS2X_NUCLEOS=fixo. Na resolução interna, as reduções de imagem são desenhadas em 1x. |
 | 0.1.8 | Memory card: o motor cria a pasta do cartão (trabalho\disc\mc0) e avisa no log quando não consegue gravar; antes, sem a pasta, o save ficava só na memória (God of War e God of War II). Resolução interna do GS de 1x a 4x (PS2X_RESOLUCAO; padrão 1x), com o GS na GPU. Aviso na tela enquanto os gráficos são preparados na primeira vez. Registro de quedas com a pilha e o nome das threads. |
 | 0.1.7 | Memory card do God of War II funciona (carga LWL/LWR no delay slot do IOP corrigida; sceCdReadClock). Áudio pode ser silenciado nos testes (PS2X_SOM_MUDO) e registro de quedas. |
